@@ -1,0 +1,53 @@
+<div class="blockster-container">
+    <div class="series-header"></div>
+    <div class="series-container">
+        <div class="elements-header">
+            <h1 class="series-title">Add TV Series</h1>
+        </div>
+        <hr class="header-separator" />
+        <div class="form-container">
+            <form [formGroup]="newSeriesForm" (ngSubmit)="saveSeries(newSeriesForm.value)" autocomplete="off">
+                <div class="form-group col-md-7" [ngClass]="{'error': name.invalid && name.dirty}">
+                    <label for="seriesName">TV Series Name</label>
+                    <em *ngIf="name.invalid && name.dirty">Required</em>
+                    <input formControlName="name" id="seriesName" type="text" class="form-control" placeholder="Mr. Robot" />
+                </div>
+                <div class="form-group col-md-7" [ngClass]="{'error': type.invalid && type.dirty}">
+                    <label for="type">Type</label>
+                    <em *ngIf="type.invalid && type.dirty">Required</em>
+                    <select formControlName="type" class="form-control">
+                    <option value="">Select Type</option>
+                    <option value="action">Action</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="scifi">Sci-fi</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-7" [ngClass]="{'error': launch.invalid && launch.dirty}">
+                    <label for="seriesLaunch">Launch Year</label>
+                    <em *ngIf="launch.invalid && launch.dirty">Required</em>
+                    <input formControlName="launch" id="launch" type="text" class="form-control" placeholder="2014" />
+                </div>
+                <div class="form-group col-md-7" [ngClass]="{'error': currentSeason.invalid && currentSeason.dirty}">
+                    <label for="seriesCurrentSeason">Current Season</label>
+                    <em *ngIf="currentSeason.invalid && currentSeason.dirty">Required</em>
+                    <input formControlName="currentSeason" id="currentSeason" type="text" class="form-control" placeholder="3" />
+                </div>
+                <div class="form-group col-md-7" [ngClass]="{'error': actors.invalid && actors.dirty}">
+                    <label for="seriesActors">Actors</label>
+                    <em *ngIf="actors.invalid && actors.dirty">Required</em>
+                    <input formControlName="actors" id="actors" type="text" class="form-control" placeholder="Ben Barnes, Julia Roberts..." />
+                </div>
+                <div class="form-group col-md-7" [ngClass]="{'error': newSeriesForm.controls.img?.invalid && newSeriesForm.controls.img?.touched}">
+                    <label for="img">Image</label>
+                    <em *ngIf="newSeriesForm.controls.img?.invalid && newSeriesForm.controls.img?.touched && newSeriesForm.controls.img?.errors.required">Required</em>
+                    <em *ngIf="newSeriesForm.controls.img?.invalid && newSeriesForm.controls.img?.touched  && newSeriesForm.controls.img?.errors.pattern">Must be a PNG or JPEG URL</em>
+                    <input formControlName="img" id="img" type="text" class="form-control" placeholder="Image Url" />
+                    <img [src]="newSeriesForm.controls.img.value" *ngIf="newSeriesForm.controls.img?.valid" width="90px" height="90px" style="margin-top: 15px;" />
+                </div>
+                <button type="submit" [disabled]="newSeriesForm.invalid" class="btn btn-primary" style="margin-left: 15px; margin-right: 25px;">Add New Series</button>
+                <button type="button" (click)="cancel()" class="btn btn-danger">Cancel</button>
+            </form>
+        </div>
+    </div>
+    <div class="series-footer"></div>
+</div>

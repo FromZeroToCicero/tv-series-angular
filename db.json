@@ -1,0 +1,222 @@
+{
+  "action": [
+    {
+      "id": 1,
+      "name": "Arrow",
+      "launch": "2012",
+      "currentSeason": 7,
+      "actors": [
+        "Stephen Amell",
+        "Emily Bett Rickards",
+        "Katie Cassidy"
+      ],
+      "img": "https://i.pinimg.com/originals/28/58/d9/2858d9b7dbdac8e417ec7867bf217c97.jpg"
+    },
+    {
+      "id": 2,
+      "name": "The Flash",
+      "launch": "2014",
+      "currentSeason": 5,
+      "actors": [
+        "Grant Gustin",
+        "Candice Patton",
+        "Tom Cavanagh"
+      ],
+      "img": "https://i.ytimg.com/vi/D7IidYu4VjU/maxresdefault.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Daredevil",
+      "launch": "2015",
+      "currentSeason": 3,
+      "actors": [
+        "Charlie Cox",
+        "Vincent D'Onofrio",
+        "Deborah Ann Woll"
+      ],
+      "img": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/2/21/Daredevil_S1_Title_Card.png/revision/latest?cb=20161220030959"
+    },
+    {
+      "id": 4,
+      "name": "Punisher",
+      "launch": "2017",
+      "currentSeason": 2,
+      "actors": [
+        "Jon Bernthal",
+        "Ben Barnes",
+        "Amber Rose Revah"
+      ],
+      "img": "https://i.imgur.com/BKCcDaI.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Vikings",
+      "launch": "2013",
+      "currentSeason": 5,
+      "actors": [
+        "Travis Fimmel",
+        "Katheryn Winnick",
+        "Alexander Ludwig"
+      ],
+      "img": "https://i.vimeocdn.com/video/414538364.webp?mw=1600&mh=900&q=70"
+    }
+  ],
+  "comedy": [
+    {
+      "id": 1,
+      "name": "Rick and Morty",
+      "launch": "2013",
+      "currentSeason": 3,
+      "actors": [
+        "Justin Roiland",
+        "Chris Parnell",
+        "Spencer Grammer"
+      ],
+      "img": "https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Brooklyn Nine-Nine",
+      "launch": "2013",
+      "currentSeason": 6,
+      "actors": [
+        "Andy Samberg",
+        "Stephanie Beatriz",
+        "Terry Crews"
+      ],
+      "img": "https://images.rapgenius.com/5ab4a638abdc52dccce0e3aea32fe1c2.1000x563x1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Family Guy",
+      "launch": "1999",
+      "currentSeason": 17,
+      "actors": [
+        "Seth Green",
+        "Mila Kunis",
+        "Seth MacFarlane"
+      ],
+      "img": "https://homeentertainmentmichelle.files.wordpress.com/2012/11/family-guy-s11-itunes.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "How I Met Your Mother",
+      "launch": "2005",
+      "currentSeason": 9,
+      "actors": [
+        "Neil Patrick Harris",
+        "Jason Segel",
+        "Alyson Hannigan"
+      ],
+      "img": "https://sccougarnews.files.wordpress.com/2014/04/himym.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "The Office",
+      "launch": "2005",
+      "currentSeason": 9,
+      "actors": [
+        "Steve Carell",
+        "Rainn Wilson",
+        "John Krasinski"
+      ],
+      "img": "https://fanfest.com/wp-content/uploads/2017/12/the-office-1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "South Park",
+      "launch": "1997",
+      "currentSeason": 23,
+      "actors": [
+        "Trey Parker",
+        "Matt Stone",
+        "Mona Marshall"
+      ],
+      "img": "https://vignette.wikia.nocookie.net/logopedia/images/8/8d/1344607123251.jpg/revision/latest?cb=20140312204242"
+    },
+    {
+      "name": "F is for Family",
+      "launch": 2015,
+      "currentSeason": 2,
+      "actors": [
+        "Bill Burr"
+      ],
+      "img": "https://m.media-amazon.com/images/M/MV5BMjhiNTZhNGEtYTRhNS00NGZlLWIxNjktYzI0NDAyMTQ0NzY3XkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_.jpg",
+      "id": 7
+    }
+  ],
+  "scifi": [
+    {
+      "id": 1,
+      "name": "Doctor Who",
+      "launch": "2005",
+      "currentSeason": 11,
+      "actors": [
+        "Jodie Whittaker",
+        "Camille Coduri",
+        "Jenna Coleman"
+      ],
+      "img": "http://www.doctorwhotv.co.uk/wp-content/uploads/series-8-title-sequence-logo.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Black Mirror",
+      "launch": "2011",
+      "currentSeason": 4,
+      "actors": [
+        "Georgina Campbell",
+        "Madeline Brewer",
+        "Tom Cullen"
+      ],
+      "img": "https://screenqueens.files.wordpress.com/2018/01/black-mirror.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Stranger Things",
+      "launch": "2016",
+      "currentSeason": 2,
+      "actors": [
+        "Millie Bobby Brown",
+        "Gaten Matarazzo",
+        "Finn Wolfhard"
+      ],
+      "img": "https://upload.wikimedia.org/wikipedia/commons/3/38/Stranger_Things_logo.png"
+    },
+    {
+      "id": 4,
+      "name": "Westworld",
+      "launch": "2016",
+      "currentSeason": 2,
+      "actors": [
+        "Anthony Hopkins",
+        "Ben Barnes",
+        "Evan Rachel Wood"
+      ],
+      "img": "https://i1.wp.com/www.geektown.co.uk/wp-content/uploads/2016/11/westworld.jpg?zoom=2.625&resize=850%2C370&ssl=1"
+    },
+    {
+      "id": 5,
+      "name": "Legion",
+      "launch": "2017",
+      "currentSeason": 2,
+      "actors": [
+        "Dan Stevents",
+        "Rachel Keller",
+        "Bill Irwin"
+      ],
+      "img": "https://fontmeme.com/images/legion_TV_font.jpg"
+    },
+    {
+      "id": 6,
+      "name": "The 100",
+      "launch": "2014",
+      "currentSeason": 6,
+      "actors": [
+        "Eliza Taylor",
+        "Paige Turco",
+        "Bob Morley"
+      ],
+      "img": "https://i.pinimg.com/originals/b9/4c/fb/b94cfbed7340e9f89c78d52d2bbc9159.jpg"
+    }
+  ]
+}

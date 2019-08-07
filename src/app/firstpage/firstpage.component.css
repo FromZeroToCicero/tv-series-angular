@@ -1,0 +1,48 @@
+.box-layout {
+    background: url('https://i.imgur.com/5UPqUSK.jpg');
+    background-size: cover;
+    filter: brightness(30%);
+    height: 100vh;   
+    width: 100vw;
+}
+
+.box-layout__box {
+    background: hsla(0, 0%, 100%, .80);
+    border-radius: 3px;
+    position: absolute;
+    padding: 3.2rem 1.6rem;
+    text-align: center;
+    width: 25rem;
+}
+
+.box-layout__title {
+    line-height: 1;
+    margin: 0 0 1.6rem 0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-button {
+    background: #1c88bf; 
+    border: none; 
+    color: white;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1;
+    padding: 0.8rem;
+    text-decoration: none;
+}
+
+.login-button--link {
+    background: none;
+}
+
+.login-button--secondary {
+    background: #888888;
+}

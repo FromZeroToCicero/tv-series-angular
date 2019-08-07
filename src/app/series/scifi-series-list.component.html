@@ -1,0 +1,37 @@
+<div class="blockster-container">
+    <div class="series-header"></div>
+    <div class="series-container">
+        <div class="elements-header">
+            <h1 class="series-title">Sci-fi TV Series</h1>
+            <div class="buttons-group">
+                <button class="btn btn-info button-spacing" (click)="recommendSeries()" modal-trigger="recommendSeries">Recommend</button>
+                <button class="btn btn-danger button-spacing" (click)="redirectToAddSeries()">Add Series</button>
+                <button class="btn btn-danger button-spacing" (click)="redirectToActionSeries()">Action Series</button>
+                <button class="btn btn-danger button-spacing" (click)="redirectToComedySeries()">Comedy Series</button>
+            </div>
+        </div>
+        <hr class="header-separator" />
+        <div class="elements-list">
+            <div class="row element-item" *ngFor="let serie of scifiSeries">
+                <div class="flex-elements">
+                    <img src="{{serie.img}}" width="90px" height="90px" />
+                    <h3 style="margin-left: 20px;">{{serie.name}}</h3>
+                </div>
+                <button id="{{serie.id}}" class="btn btn-danger button-delete" (click)="removeSeries($event)">X</button>
+            </div>
+        </div>
+    </div>
+    <div class="series-footer"></div>
+</div>
+
+<simple-modal closeOnBodyClick="true" elementId="recommendSeries" title="Blockster">
+    <div class="modal-details">
+        <h3>We recommend to watch {{recommendedSeries?.name}}. It's really amazing!</h3>
+        <img src="{{recommendedSeries?.img}}" width="300px" height="300px" style="margin: 20px 0px 30px 0px;" />
+    </div>
+    <ul>
+        <li><b>Starring</b>: {{recommendedSeries?.actors.join(', ')}}</li>
+        <li><b>Launch year</b>: {{recommendedSeries?.launch}}</li>
+        <li><b>Current season</b>: {{recommendedSeries?.currentSeason}}</li>
+    </ul>
+</simple-modal>
